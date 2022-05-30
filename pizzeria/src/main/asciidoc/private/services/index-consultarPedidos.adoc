@@ -1,0 +1,15 @@
+====  Consulta
+Consultar Pedidos
+
+.+Petición+
+include::{snippets}/consultarPedidos/curl-request.adoc[]
+include::{snippets}/consultarPedidos/http-request.adoc[]
+.+Atributos de cabecera de petición+
+include::{snippets}/consultarPedidos/request-headers.adoc[]
+.+Parámetros de petición+
+include::{snippets}/consultarPedidos/path-parameters.adoc[]
+.+Ejemplo de Respuesta+
+include::{snippets}/consultarPedidos/http-response.adoc[]
+include::{snippets}/consultarPedidos/response-body.adoc[]
+
+

@@ -1,0 +1,40 @@
+:sectnums:
+:sectnumlevels: 5
+:doctype: book
+:toc: left
+:toclevels: 3
+:page-layout: docs
+
+= Mercantil Andina - Pizzería - Api Rest
+
+[[examples]]
+
+== Introducción
+include::introduccion/index-introduccion.adoc[]
+
+== API Public
+=== GET Welcome
+Puede utilizarse para probar la disponibilidad de la API
+include::welcome/index-welcome.adoc[]
+
+== API Private
+
+=== Authenticate
+include::private/authenticate/index-authenticate.adoc[]
+
+=== Producto
+include::private/services/index-crearProducto.adoc[]
+include::private/services/index-modificarProducto.adoc[]
+include::private/services/index-consultarProducto.adoc[]
+include::private/services/index-borrarProducto.adoc[]
+
+=== Pedido
+include::private/services/index-crearPedido.adoc[]
+include::private/services/index-consultarPedidos.adoc[]
+
+
+== HTTP status codes
+include::statusCodes/index-statusCodes.adoc[]
+
+
+

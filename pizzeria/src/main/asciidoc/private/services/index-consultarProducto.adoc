@@ -1,0 +1,15 @@
+====  Consulta
+Consultar un Producto
+
+.+Petición+
+include::{snippets}/consultarProducto/curl-request.adoc[]
+include::{snippets}/consultarProducto/http-request.adoc[]
+.+Atributos de cabecera de petición+
+include::{snippets}/consultarProducto/request-headers.adoc[]
+.+Parámetros de petición+
+include::{snippets}/consultarProducto/path-parameters.adoc[]
+.+Ejemplo de Respuesta+
+include::{snippets}/consultarProducto/http-response.adoc[]
+include::{snippets}/consultarProducto/response-body.adoc[]
+
+

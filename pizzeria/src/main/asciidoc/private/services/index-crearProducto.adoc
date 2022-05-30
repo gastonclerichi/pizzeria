@@ -1,0 +1,16 @@
+====  Creación
+Crea un Producto
+
+.+Petición+
+include::{snippets}/crearProducto/curl-request.adoc[]
+include::{snippets}/crearProducto/http-request.adoc[]
+.+Atributos de cabecera de petición+
+include::{snippets}/crearProducto/request-headers.adoc[]
+.+Cuerpo de petición+
+include::{snippets}/crearProducto/request-body.adoc[]
+.+Campos de petición+
+include::{snippets}/crearProducto/request-fields.adoc[]
+.+Ejemplo de Respuesta+
+include::{snippets}/crearProducto/http-response.adoc[]
+include::{snippets}/crearProducto/response-body.adoc[]
+

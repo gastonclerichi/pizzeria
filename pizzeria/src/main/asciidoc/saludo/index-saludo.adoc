@@ -1,0 +1,7 @@
+
+====  GET Saludo
+include::{snippets}/saludo/curl-request.adoc[]
+include::{snippets}/saludo/http-request.adoc[]
+include::{snippets}/saludo/request-parameters.adoc[]
+include::{snippets}/saludo/http-response.adoc[]
+include::{snippets}/saludo/response-body.adoc[]

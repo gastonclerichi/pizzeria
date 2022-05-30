@@ -1,0 +1,12 @@
+En caso de que el usuario se autenticado y autorizado, retorna un Token con 24 hrs de actividad
+
+.+Petición+
+include::{snippets}/authenticate/curl-request.adoc[]
+include::{snippets}/authenticate/http-request.adoc[]
+include::{snippets}/authenticate/request-parameters.adoc[]
+.+Respuesta -> Token Autorización+
+include::{snippets}/authenticate/http-response.adoc[]
+include::{snippets}/authenticate/response-body.adoc[]
+
+_El Body de la respuesta contiene un JWT_ +
+

@@ -1,0 +1,16 @@
+====  Creación
+Crea un Pedido
+
+.+Petición+
+include::{snippets}/crearPedido/curl-request.adoc[]
+include::{snippets}/crearPedido/http-request.adoc[]
+.+Atributos de cabecera de petición+
+include::{snippets}/crearPedido/request-headers.adoc[]
+.+Cuerpo de petición+
+include::{snippets}/crearPedido/request-body.adoc[]
+.+Campos de petición+
+include::{snippets}/crearPedido/request-fields.adoc[]
+.+Ejemplo de Respuesta+
+include::{snippets}/crearPedido/http-response.adoc[]
+include::{snippets}/crearPedido/response-body.adoc[]
+

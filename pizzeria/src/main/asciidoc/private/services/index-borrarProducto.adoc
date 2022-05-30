@@ -1,0 +1,15 @@
+====  Eliminación
+Borra un Producto
+
+.+Petición+
+include::{snippets}/borrarProducto/curl-request.adoc[]
+include::{snippets}/borrarProducto/http-request.adoc[]
+.+Atributos de cabecera de petición+
+include::{snippets}/borrarProducto/request-headers.adoc[]
+.+Parámetros de petición+
+include::{snippets}/borrarProducto/path-parameters.adoc[]
+.+Ejemplo de Respuesta+
+include::{snippets}/borrarProducto/http-response.adoc[]
+include::{snippets}/borrarProducto/response-body.adoc[]
+
+

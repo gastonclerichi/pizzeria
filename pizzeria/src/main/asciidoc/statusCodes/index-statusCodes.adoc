@@ -1,0 +1,32 @@
+====  Códigos de respuesta HTTP
+[%hardbreaks]
+200 OK
+Este código de respuesta indica que la solicitud se ha realizado correctamente.
+
+[%hardbreaks]
+201 Created 
+Esto indica que la petición tuvo éxito y ha creado un recurso. Se utiliza para confirmar el éxito de un PUT o solicitud POST.
+
+[%hardbreaks]
+400 Bad Request 
+La solicitud fue mal formada. Esto sucede especialmente con POST y peticiones PUT, cuando los datos no pasan la validación, o están en el formato incorrecto.
+
+[%hardbreaks]
+404 Not Found 
+Esta respuesta indica que el recurso solicitado no se pudo encontrar. Esto generalmente se retorna a todas las solicitudes que apuntan a una dirección URL sin un recurso correspondiente. 
+
+[%hardbreaks]
+401 Unauthorized 
+Este error indica que se necesita llevar a cabo la autenticación antes de acceder al recurso.
+
+[%hardbreaks]
+405 Method Not Allowed 
+El método HTTP utilizado no es compatible con el recurso solicitado. 
+
+[%hardbreaks]
+409 Conflict 
+Esto indica un conflicto. Por ejemplo, se está utilizando una solicitud PUT para crear el mismo recurso en dos ocasiones. 
+
+[%hardbreaks]
+500 Internal Server Error 
+En general, una respuesta 500 se utiliza cuando el proceso falla debido a circunstancias imprevistas en el lado del servidor.

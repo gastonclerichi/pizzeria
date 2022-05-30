@@ -1,0 +1,18 @@
+====  Modificación
+Modifica un Producto
+
+.+Petición+
+include::{snippets}/modificarProducto/curl-request.adoc[]
+include::{snippets}/modificarProducto/http-request.adoc[]
+.+Atributos de cabecera de petición+
+include::{snippets}/modificarProducto/request-headers.adoc[]
+.+Parámetros de petición+
+include::{snippets}/modificarProducto/path-parameters.adoc[]
+.+Cuerpo de petición+
+include::{snippets}/modificarProducto/request-body.adoc[]
+.+Campos de petición+
+include::{snippets}/modificarProducto/request-fields.adoc[]
+.+Ejemplo de Respuesta+
+include::{snippets}/modificarProducto/http-response.adoc[]
+include::{snippets}/modificarProducto/response-body.adoc[]
+

@@ -1,0 +1,7 @@
+.+Petición+
+include::{snippets}/welcome/curl-request.adoc[]
+include::{snippets}/welcome/http-request.adoc[]
+.+Respuesta+
+include::{snippets}/welcome/http-response.adoc[]
+.+Cuerpo de Respuesta+
+include::{snippets}/welcome/response-body.adoc[]
